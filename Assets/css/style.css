@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #EBF0F5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-contact{
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #EBF0F5;
+    border-radius: 8px;
+    background-color: white;
+    margin: auto;
+}
+.container-contact_block{
+    border-bottom: 1px solid #EBF0F5;
+    padding: 15px 45px;
+}
+.container-contact_block_title{
+    margin: 0;
+    color: #303030;
+    font-weight: 600;
+    font-size: 18px;
+}
+.container-contact_block_number{
+    margin: 0;
+    color: #303030;
+}
+.container-contact_form{
+    display:flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.contactName, .contactPhone{
+    width: 80%;
+    margin: 0 auto 20px;
+    border: 1px  solid  #EBF0F5;
+    padding: 10px;
+    border-radius: 4px;
+}
+.addContact{
+    background-color: #4659A5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+}
+.container-contact_form_btn{
+    width: 90%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.deletContact:hover{
+    cursor: pointer;
+    color: red;
+}
+.addContact:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
